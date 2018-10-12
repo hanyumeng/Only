@@ -1,0 +1,187 @@
+body,div,p,ul,ol,li,dl,dt,dd,form,tr,td,hr,h1,h2,h3,h4,h5,h6,hr,input,table,fieldset,figure{
+		margin:0;
+		padding:0;
+	}
+body{
+	font-family:"微软雅黑",Arial;
+	background: white;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:0;
+}
+
+.w{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*header*/
+#header{
+	height:35px;
+}
+#header a{
+	float: right;
+	color: black;
+	font-size: 14px;
+	line-height: 35px;
+}
+#header a:hover{
+	color: red;
+	text-decoration: underline;	
+}
+#header p{
+	float: left;
+	font-size: 14px;
+	line-height: 35px;
+}
+/*logo*/
+#logo{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+#logoRight a{
+	color: black;
+	font-size: 14px;
+}
+/*search*/
+#search{
+	height: 38px;
+}
+#searchId{
+	float: right;
+}
+.abc{
+		width:150px;
+		height:24px;
+		color:#888888;
+		border:1px solid #e5e5e5;
+		border-right:none;
+		text-indent:14px;
+		float:left;
+		outline: none;
+	}
+.def{
+		width:38px;
+		height:26px;
+		background:url(../img/search.png);
+		border:1px solid #e5e5e5;
+		border-left:none;
+		text-indent:-200px;
+		float:left;
+		outline: none;
+	}
+
+/*nav*/
+.navClass{
+		position: relative;
+		height:44px;
+		background:white;
+		clear:both;
+		display: flex;
+		border-top:1px solid #cccccc ;
+		border-bottom:1px solid #cccccc ;
+		/*flex: 1;*/
+}
+.navClass .nav-li{
+		float:left;
+		border-right:1px solid #cccccc;
+		flex: 1;
+		text-align:center;
+}
+.navClass .nav-li .nav-a{
+		padding-top: 14px;
+		padding-bottom: 14px;
+		display: block;
+		width: 100%;
+		font-size:14px;
+		color:black;
+}
+.navClass .nav-li:last-child{
+	border-right:0;
+}
+.navClass .nav-li .nav-a:hover{
+	background: black;
+	color: white;
+}
+
+.navClass .box1{
+	padding-left: 10px;
+	padding-bottom: 50px;
+	height: 200px;
+	position: absolute;
+	top: 44px;
+	left: 0;
+	background: #CCCCCC;
+}
+/*.navClass .box1 a{
+	display: block;
+}*/
+.navClass .box1 ul{
+	width:120px;
+	float: left;
+	margin-right:25px;
+	text-align: left;
+}
+.navClass .box1 ul a{
+	font-size: 14px;
+	color: black;
+}
+.navClass .box1 ul li:first-child{
+	border-bottom: 1px solid black;
+	text-indent: 10px;
+}
+.navClass .box ul li a{
+	line-height: 20px;
+}
+
+/*footernav*/
+.footernavClass{
+		height:16px;
+		background:black;
+		line-height:16px;	
+		clear:both;
+		display: flex;
+		/*flex: 1;*/
+}
+.footernavClass a{
+		font-size:14px;
+		color:white;
+		float:left;
+		border-right:1px solid white;
+		flex: 1;
+		text-align:center;
+}
+.footernavClass .person{
+	border-right:0;
+}
+#tiao{
+	width: 100%;
+	height:10px;
+	background: black;
+}
+/*footercompany*/
+#footercompany{
+	margin-top: 38px;
+	display: flex;
+	margin-bottom: 6px;
+	border-bottom: 1px solid #999999;
+}
+#footercompany a{
+	flex: 1;
+	text-align:center ;
+	padding-bottom: 12px;
+}
+#footeradress{
+	text-align: center;
+}
+#footeradress p{
+	font-size: 14px;
+	line-height: 42px;
+}

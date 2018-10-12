@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<div id="sliderBox" style="width:600px;height: 300px; background-color: red;">
+			<!--放轮播图-->
+			
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/slider.js" ></script>
+
+<script type="text/javascript">
+	window.onload = function(){
+		let width = $("#sliderBox").width();
+		let height = $("#sliderBox").height();
+		
+		let s1 = new Slider($("#sliderBox"),width,height,["img/banner1.jpg","img/banner2.jpg","img/banner3.jpg"],
+				10,"#ccc","red",
+				true,-1,2000);
+	}
+</script>
